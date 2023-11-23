@@ -39,7 +39,6 @@ require(["js/qlik"], function (qlik) {
 		console.log(error);
 	});
 
-
 	//callbacks -- inserted here --
 	//open apps -- inserted here --
 	var app = qlik.openApp(appId, config);
